@@ -1,0 +1,352 @@
+﻿[
+  {
+    "Title": "The Social Network",
+    "Description": "Directed by David Fincher, The Social Network tells the story of how Mark Zuckerberg created Facebook while studying at Harvard and how he was later sued by two brothers who claimed he stole their idea, and his best friend who was ousted from the company.",
+    "ReleaseDate": "2020-05-20",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tsn.jpg"
+  },
+  {
+    "Title": "Pirates of Silicon Valley",
+    "Description": "Based on the book Fire in the Valley: The Making of the Personal Computer, Pirates of Silicon Valley explores the rivalry between Steve Jobs and Bill Gates between 1971 – 1997. This movie came out in 1999, just when Steve Jobs began flourishing in his second innings at Apple. The movie ends with Bill Gates gaining the upper hand in the rivalry, but we all know what transpired next.",
+    "ReleaseDate": "2019-01-15",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/psv.jpg"
+  },
+  {
+    "Title": "Startup.com",
+    "Description": "If you want to learn more about the rise and fall of internet companies during the dotcom bubble, then Startup.com is the perfect movie. Startup.com is a documentary film that follows the story of GovWorks, a promising startup that failed spectacularly because of mismanagement and internal power struggles.",
+    "ReleaseDate": "2019-09-23",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/scom.jpg"
+  },
+  {
+    "Title": "Wall Street",
+    "Description": "This is the movie with the famous “Greed is good” speech, delivered by the charismatic Gordon Gekko played brilliantly by Michael Douglas, who won an academy award for his performance.\n\nDirected by Oliver Stone, Wall Street tells the story of ambition and greed, portrayed brilliantly by Charlie Sheen and Michael Douglas respectively. The main protagonist, Bud Fox, idolizes Gekko and gets carried away by his glamorous lifestyle, only to get entangled in the vicious web of insider trading.",
+    "ReleaseDate": "2020-03-04",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/ws.jpg"
+  },
+  {
+    "Title": "Glengarry Glenn Ross",
+    "Description": "A movie that stars Al Pacino, Kevin Spacey, Jack Lemmon, and Alec Baldwin (in a scene stealing cameo) should serve as motivation alone to watch this movie.\n\nGlengarry Glenn Ross is based on an award-winning play which shows the plight of real estate salespeople during a tumultuous sales season.",
+    "ReleaseDate": "2020-03-02",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/ggr.jpg"
+  },
+  {
+    "Title": "The Big Short",
+    "Description": "Based on Michael Lewis’ book of the same title, The Big Short tells three separate but parallel stories of individuals who were able to predict and profit from the American financial crisis of 2007-08.\n\nDirected by Adam McKay (best known for the Anchorman franchise prior to this movie), the movie features Oscar-worthy performances from Christian Bale and Steve Carell.\n\nThe film is also noted for employing unconventional techniques to explain complex and supposedly boring financial concepts like subprime mortgages and collateralized debt obligations (CDOs).",
+    "ReleaseDate": "2020-05-22",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tbs.jpg"
+  },
+  {
+    "Title": "The Wolf of Wall Street",
+    "Description": "The Wolf of Wall Street is based on the true story of Jordan Belfort. It follows his rise and fall as an entrepreneur, and shows how his firm Stratton Oakmont engaged in penny stock trading and securities scam, drawing the attention of the FBI.\n\nBrilliantly directed by Martin Scorsese with stellar performances from Leonardo DiCaprio, Jonah Hill, Margot Robbie, and a spectacular cameo by Matthew McConaughey (right at the peak of his “McConaissance.”)",
+    "ReleaseDate": "2019-10-11",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/twws.jpg"
+  },
+  {
+    "Title": "Boiler Room",
+    "Description": "If you can ignore the fact that Vin Diesel plays a smooth-talking stockbroker in the movie, you’re going to enjoy this. And if you enjoyed The Wolf of Wall Street, you’re going to enjoy Boiler Room even more as it is loosely based on Stratton Oakmont, the fraudulent stock trading company founded by Jordan Belfort.\n\nThe characters in the movie worship Gordon Gekko from Wall Street and make their living manipulating gullible people into buying penny stocks. You know exactly where this is headed!",
+    "ReleaseDate": "2019-11-13",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/br.jpg"
+  },
+  {
+    "Title": "Fyre: The Greatest Party That Never Happened",
+    "Description": "Fyre festival was supposed to be the greatest music festival ever. Organized by Billy McFarland and rapper Ja Rule, the “luxury music festival” was promoted on Instagram by celebrities and social media influencers, including Kendall Jenner, Bella Hadid, and Emily Ratajkowski. The only problem? It was all a scam, devised by MacFarland who had a history of starting up fraudulent business ventures.\n\nNetflix’s documentary Fyre: The Greatest Party That Never Happened gives us an exclusive behind-the-scenes look at the ill-fated music festival.\n\nTo grasp the scale of this fraud, you have to watch the documentary as it includes some shocking revelations from Billy’s unfortunate team members, the festival goers who were stranded on the island, and the heartbreaking tale of a Bahamian restaurateur who had to spend $50,000 of her own life savings to pay her staff who were preparing and serving meals to the stranded festival goers. Luckily, she created a GoFundMe page after the release of the documentary where she was able to recuperate the lost amount, thanks to the sympathy and generosity of people who were moved by her tale in the documentary.",
+    "ReleaseDate": "2019-04-25",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tgptnh.jpg"
+  },
+  {
+    "Title": "The Aviator",
+    "Description": "Yet another Scorsese-DiCaprio collaboration in the list. The Aviator is a biopic of Howard Hughes, the eccentric billionaire who overcame all the odds to become a famous businessman and successful film director, while coping with his gradually worsening OCD. DiCaprio is brilliant in the movie and his performance earned him his second Oscar nomination. It’s also one of the best biography movies of all time.",
+    "ReleaseDate": "2019-11-04",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/ta.jpg"
+  },
+  {
+    "Title": "Moneyball",
+    "Description": "A fan of baseball? No? Never mind! Moneyball has less to do with baseball and more to do with Oakland A’s GM Billy Beane’s unique tactics to overcome the odds stacked against his team.\n\nFaced with limited budget, Billy Bean (Brad Pitt) decides to take the untested sabermetric approach towards building his team to achieve incredible results in the Major Baseball League (MLB).",
+    "ReleaseDate": "2019-07-28",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/mball.jpg"
+  },
+  {
+    "Title": "The Founder",
+    "Description": "The Founder is a biopic of the American fast-food tycoon Ray Kroc. Starring Michael Keaton, the movie tells the story of his creation of McDonald’s fast-food restaurant chain, which became the biggest restaurant business in the world. It also stars Nick Offerman and John Carroll Lynch who play the McDonald brothers, the original founders of McDonald’s.",
+    "ReleaseDate": "2019-05-04",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tf.jpg"
+  },
+  {
+    "Title": "Margin Call",
+    "Description": "Yet another movie about the 2007-08 financial crisis, but this time it’s from the perspective of an investment bank deep in the crisis. The plot of Margin Call revolves around key people in a large investment bank and the actions they take over a 24-hour period during the initial stages of the financial crisis.\n\nAlthough the fictional investment bank has no name in the movie, many believe the actions taken by the firm are too similar to the ones taken by Goldman Sachs and Merrill Lynch during the crisis.",
+    "ReleaseDate": "2019-10-12",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/mc.jpg"
+  },
+  {
+    "Title": "Steve Jobs",
+    "Description": "Not the one starring Ashton Kutcher, but the one with Michael Fassbender playing the iconic Apple co-founder. Directed by Danny Boyle and written by Aaron Sorkin (who also wrote The Social Network), Steve Jobs is a different sort of a biopic. It contains just 3 sequences, all depicting a pivotal point in Jobs’ life. The movie includes brilliant performances by Fassbender and Kate Winslet.",
+    "ReleaseDate": "2019-12-29",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/sj.jpg"
+  },
+  {
+    "Title": "Thank You for Smoking",
+    "Description": "Want to master the art of marketing or selling just about any product? Then Thank You for Smoking is the movie you need to watch. The plot of the movie revolves around the machinations of Big Tobacco’s chief spokesman, Nick Naylor, who defends the cigarette industry in challenging situations.",
+    "ReleaseDate": "2019-10-14",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tyfs.jpg"
+  },
+  {
+    "Title": "The Pursuit of Happyness",
+    "Description": "The Pursuit of Happyness is a true story based on the life of entrepreneur Chris Gardner’s nearly one-year struggle of being homeless with his son while going through a gruelling 6-month unpaid internship as a stockbroker. Will Smith’s portrayal of Gardner earned him an Oscar nomination.",
+    "ReleaseDate": "2019-01-25",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tph.jpg"
+  },
+  {
+    "Title": "Enron: The Smartest Guys in the Room",
+    "Description": "Enron: The Smartest Guys in the Room is a documentary based on the best-selling book of the same name by Bethany McLean and Peter Elkind (the book is featured in my list of 75+ best books for entrepreneurs.)\n\nThe documentary examines the fall of Enron Corporation in 2001 and all the key players who were responsible for what came to be known as the Enron scandal. The film features interviews with the authors McLean and Elkind, as well as former Enron executives and employees, stock analysts, reporters, and the former Governor of California Gray Davis.",
+    "ReleaseDate": "2019-09-11",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tsgr.jpg"
+  },
+  {
+    "Title": "Any Given Sunday",
+    "Description": "Directed by Oliver Stone and featuring a great ensemble cast, including Al Pacino, Jamie Foxx, Cameron Diaz, Dennis Quaid, and LL Cool J, Any Given Sunday offers a behind-the-scenes look at the struggles of a fictional professional American football team.\n\nAl Pacino plays a veteran coach who is facing the heat after having fallen out of favor with the team owner Christina Pagniacci (Cameron Diaz). This movie is a must-watch not just for Pacino fans, but also for budding entrepreneurs and sports enthusiasts.",
+    "ReleaseDate": "2019-01-24",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/ags.jpg"
+  },
+  {
+    "Title": "The Inventor: Out for Blood in Silicon Valley",
+    "Description": "Ever since I read Bad Blood by John Carreyrou, I have been fascinated with Theranos and its enigmatic founder Elizabeth Holmes.\n\nThe Inventor examines the rise and fall of Theranos, a multibillion dollar biotech company that was set to transform the healthcare industry. The documentary mainly revolves around Elizabeth Holmes, the founder of Theranos, and to some extent, the company’s COO Sunny Balwani.\n\nThe film chronicles how Holmes and Balwani engaged in fraudulent practices to mislead investors and business partners, and how both of them were more interested in marketing, promotion, and fame than in getting the actual mechanics of their technology working. They also spent most of their time intimidating and threatening former employees who had quit the company because of the deceptive practices followed by Theranos.",
+    "ReleaseDate": "2019-03-11",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tiofbisv.jpg"
+  },
+  {
+    "Title": "The Great Hack",
+    "Description": "One of the most shocking scandals in 2018 was the Facebook–Cambridge Analytica data scandal, where it was revealed that Cambridge Analytica, a British political consulting firm, had harvested the personal data of millions of Facebook users without their consent and used it for political advertising purpose, including Brexit and Donald Trump’s 2016 presidential campaign.\n\nThe Great Hack is a documentary film that examines the Cambridge Analytica scandal through the eyes of people who were involved in it.",
+    "ReleaseDate": "2019-05-12",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tgh.jpg"
+  },
+  {
+    "Title": "Becoming Warren Buffett",
+    "Description": "Becoming Warren Buffett is a documentary film about Warren Buffett and his life. The documentary examines the contrast between Warren Buffett’s expertise in investing and his personal relationship skills.",
+    "ReleaseDate": "2019-01-16",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/bwb.jpg"
+  },
+  {
+    "Title": "The Billionaire",
+    "Description": "If it seems to you that your hard work is not paying off, money is not flowing to you, and you are close to despair, this film will be an excellent motivator and undoubtedly increase your morale. This story is based on true events and guides us through all the milestones of the hero’s difficult journey. The purposefulness, resourcefulness, and enterprise of young Tom do not always find support in the real world, where adults insist on him receiving the appropriate education and impose their values ​​on him. School, university, tedious work – all this does not attract Tom, his goal is business. Abandoned studies and mounting debts, successes and terrible troubles, intractable problems and struggles with the authorities – one can never give up on the path to real progress and billions in wealth if you believe in yourself.",
+    "ReleaseDate": "2019-09-28",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tb.jpg"
+  },
+  {
+    "Title": "The Corporation",
+    "Description": "Do you know who really rules the world? These giant corporations literally have absolute power. They are able to shape the way their customers think. A person’s circle of interests, dreams, and opportunities, and their very life is only a package of resources for a corporation to use for profit. Business mastodons have reached great heights with their ability to manipulate consciousness and only a few can resist them. What is the role of business process leaders? What qualities should they have to avoid mistakes and achieve success?",
+    "ReleaseDate": "2019-09-26",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tc.jpg"
+  },
+  {
+    "Title": "Joy",
+    "Description": "Here is another real story about Joy Mangano, the very entrepreneur who invented the self-pressing mop and founded Ingenious Designs. What difficulties did she have to go through? Problems like finances, personal turmoil, a family crisis, betrayal of loved ones. If you lose almost everything except the irrepressible thirst for success and if you have nowhere to retreat, what’s left? Well, in the case of the main character of the film, building a multi-million dollar business.",
+    "ReleaseDate": "2019-02-17",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/joy.jpg"
+  },
+  {
+    "Title": "Too Big to Fail",
+    "Description": "This film is based on real events from the documentary bestseller “Too Big to Fail.” Who were the people who, in the autumn of 2008, decided the fate of the world economy and tried to stabilize the financial markets? At the center of the plot is Finance Minister Henry Paulson. What decisions did he have to make when powerful banks and huge investment pyramids collapsed like a house of cards?",
+    "ReleaseDate": "2019-01-20",
+    "Category": "movie",
+    "PhotoUrl": "https://localhost:5001/images/tbtf.jpg"
+  },
+  {
+    "Title": "Silicon Valley",
+    "Description": "Created by Mike Judge, Silicon Valley is a critically-acclaimed sitcom that follows the struggle of a group of young software programmers and developers trying to succeed in Silicon Valley.\n\nFeaturing a great ensemble cast comprising of Thomas Middleditch, TJ Miller, Kumail Nanjiani, and Martin Starr, Silicon Valley is a hilarious take on the startup ecosystem. It shows how challenging it can be for new entrepreneurs to make an impact in the competitive environment of Silicon Valley, despite having a game-changing product.\n\nSilicon Valley has 6 seasons with a total of 53 episodes. The sixth season, which was the show’s last season, aired in October 2019 and the last episode aired on December 8, 2019.",
+    "ReleaseDate": "2019-02-05",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/sv.jpg"
+  },
+  {
+    "Title": "Shark Tank",
+    "Description": "Shark Tank is a business-related reality TV show where investment-seeking entrepreneurs make business presentations to a panel of five investors aka “sharks” who then choose whether to invest in their company as business partners. The show first premiered on August 9, 2009 as the American franchise of the international format Dragons’ Den (see #3).\n\nLongstanding panel members of the show include business tycoons such as Mark Cuban, Barbara Corcoran, Kevin O’Leary, Daymond John, and Lori Greiner; while Richard Branson, Ashton Kutcher, and Chris Sacca have all appeared as guest sharks.",
+    "ReleaseDate": "2020-02-11",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/st.jpg"
+  },
+  {
+    "Title": "Dragons’ Den (UK)",
+    "Description": "Dragons’ Den originated in Japan in 2001, where the series was called The Tigers of Money. Local versions of the show have been produced in over 30 countries, but it’s the British version of the show called Dragons’ Den that’s considered the most popular and the series that inspired Mark Burnett to produce Shark Tank.\n\nThe premise of the show is similar to that of Shark Tank — budding entrepreneurs pitch their ideas to five investors aka “dragons” who then decide whether to invest in the product/service that they have just been pitched. The panel of investors typically includes successful entrepreneurs like Deborah Meaden, Peter Jones, Duncan Bannatyne, and Theo Paphitis.",
+    "ReleaseDate": "2019-10-16",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/dduk.jpg"
+  },
+  {
+    "Title": "Better Call Saul",
+    "Description": "You may already be familiar with Saul Goodman if you’ve watched Breaking Bad. Better Call Saul is a prequel to Breaking Bad and is centered on the character of Jimmy McGill aka Saul Goodman.\n\nThe show takes place six years before the events of Breaking Bad and shows the transformation of Jimmy McGill, a former scam artist, and small-time lawyer, into Saul Goodman, a lawyer who frequently represents criminals while himself becoming involved in the city’s criminal world.\n\nBob Odenkirk is absolutely brilliant as the lead and the supporting cast, comprising of Rhea Seehorn, Jonathan Banks, and Giancarlo Esposito, give stellar performances to make this a worthy spin-off to Breaking Bad.",
+    "ReleaseDate": "2020-01-26",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/bcs.jpg"
+  },
+  {
+    "Title": "StartUp",
+    "Description": "StartUp is a web drama series that follows the emergence of GenCoin, a brilliant yet controversial cryptocurrency startup. The series has a great ensemble cast featuring Adam Brody, Edi Gathegi, Otmara Marrero, Martin Freeman, Ron Perlman, Addison Timlin, and Mira Sorvino. While the first season of the show received a mixed response from critics (33% approval rating on Rotten Tomatoes), it has slowly gained loyal fans over the years.\n\nThere are currently 3 seasons of this series — with a total of 30 episodes. The fate of the show hangs in balance; it has not been renewed for a fourth season yet nor has it been canceled.",
+    "ReleaseDate": "2019-09-27",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/s.jpg"
+  },
+  {
+    "Title": "Billions",
+    "Description": "Starring Paul Giamatti and Damian Lewis, Billions is a drama series about power politics in the world of New York high finance. The central plot revolves around the legal battles between two powerful New York figures — U.S. Attorney Chuck Rhoades (Giamatti) and hedge fund king Bobby “Axe” Axelrod (Lewis).\n\nAside from being wildly entertaining and binge-able, the show is filled with insightful quotes on business, startups, and leadership. Definitely a must-watch TV show for entrepreneurs.\n\nThe show currently has four seasons (48 episodes) and has been renewed for a fifth season.",
+    "ReleaseDate": "2020-04-20",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/b.jpg"
+  },
+  {
+    "Title": "Ballers",
+    "Description": "Ballers is a comedy-drama series starring Dwayne “The Rock” Johnson who plays Spencer Strasmore, a retired NFL player who must navigate his new career of choice as the financial manager of other NFL players. The show is critically acclaimed and has been called the NFL version of the show Entourage. Dwayne Johnson’s performance, in particular, has been praised by critics and fans alike.\n\nBallers has five seasons with a total of 47 episodes. The fifth and final season of the show premiered on August 25, 2019.",
+    "ReleaseDate": "2019-06-06",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/ballers.jpg"
+  },
+  {
+    "Title": "Empire",
+    "Description": "Created by Lee Daniels and Danny Strong, Empire is a drama series that tells the story of Empire Entertainment, a fictional hip hop music and entertainment company, and the drama that unfolds among the members of the founders’ family as they fight for control of it.\n\nThe series has six seasons. The sixth and final season premiered on September 24, 2019.",
+    "ReleaseDate": "2019-11-24",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/e.jpg"
+  },
+  {
+    "Title": "Dirty Money",
+    "Description": "A Netflix original TV series, Dirty Money documents stories of corporate fraud and corruption. The series features six hour-long episodes, each episode focussing on one example of corporate corruption.\n\nAlthough I liked all episodes, my personal favorite was Payday (Season 1, Ep. #2) which revolves around amateur racing driver Scott Tucker and his fraudulent online business, AMG Services, which made payday loans with extremely high-interest rates.\n\nEach season has 6 episodes and the most recent season, the show’s second season, premiered on March 11, 2020.",
+    "ReleaseDate": "2019-01-24",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/dm.jpg"
+  },
+  {
+    "Title": "The Office",
+    "Description": "This hit TV series follows the peculiar workers of the Dunder Mifflin company in a parody of American office culture.\n\nDirector Michael Scott “runs” the show, leading an ensemble cast that includes salesman Dwight Schrute, receptionist Pam Beesly, Stamford brand manager Jim Halpert, and of course the retired Stanley Hudson (unanimously voted our “office’s” favorite character).\n\nUltimately, the series is about everyday situations in an office, work environment, and relationships between coworkers.",
+    "ReleaseDate": "2019-05-01",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/to.jpg"
+  },
+  {
+    "Title": "House of Cards",
+    "Description": "This series tells the story of Francis Underwood, a Democratic Party politician whose goal is to reach the top seat at the Whitehouse.\n\nDuring the series, you witness Underwood’s political maneuvering, manipulation, and meteoric rise to power (at any cost) accompanied always by his equally ambitious wife, Claire.",
+    "ReleaseDate": "2020-06-23",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/hoc.jpg"
+  },
+  {
+    "Title": "Mad Men",
+    "Description": "The series talks about the publicist Draper Daniels, one of the main exponents of advertising in the 1960s in New York. He is the creative director and partner of Sterling & Cooper.\n\nDespite his prestige, and the great amount of respect and admiration people have for him worldwide, Draper is portrayed as a manipulative womanizer coming to grips with the social changes of the 60s and 70s in the United States.",
+    "ReleaseDate": "2019-06-13",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/mm.jpg"
+  },
+  {
+    "Title": "The Sopranos",
+    "Description": "One of the all-time great series of our generation, The Sopranos documents the life of the biggest boss of the Italian mafia in New Jersey, as he struggles to manage a criminal organization while leading a normal life at home.\n\nTony Soprano is a true leader, not only show through his resilience as a mafia boss but also with his family. His day-to-day life is extortion, illegal traffic, bribery, and mob hits causing a series of uncontrolled anxiety attacks dealt with by his psychiatrist whose relationship, of course, is kept a secret.",
+    "ReleaseDate": "2019-04-18",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/sopranos.jpg"
+  },
+  {
+    "Title": "Game of Thrones",
+    "Description": "Based on George R.R. Martin’s fantasy novel series A Song of Ice and Fire, Game of Thrones follows the power struggle for the throne of the Seven Kingdoms, set in a fictional world between powerful families with equally intriguing backgrounds.\n\nAs the families dispute, revenge, betrayal, and war between themselves, there is a mysterious threat from unknown beings north of the giant ice wall that threatens to destroy the Seven Kingdoms once and for all.",
+    "ReleaseDate": "2019-07-31",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/got.jpg"
+  },
+  {
+    "Title": "Halt and Catch Fire",
+    "Description": "In the 1980s, a computer vendor, a systems engineer, and a software programmer built a revolutionary personal computer that is capable of competing with IBM, the industry leaders at the time.\n\nThis series shows the difficulties that arise from creating a product from scratch and how a founding team’s relationship changes as the project evolves.",
+    "ReleaseDate": "2019-12-02",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/hacf.jpg"
+  },
+  {
+    "Title": "Suits",
+    "Description": "A smart young man named Michael Ross is hired by one of New York’s most prestigious law firms, Harvey Specter, despite never having attended law school and lying on his CV.\n\nThe show follows the various cases Ross and Specter (a fellow associate) work on while trying to keep his secret hidden from everyone at the firm.",
+    "ReleaseDate": "2020-04-02",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/suits.jpg"
+  },
+  {
+    "Title": "Inside Bill’s Brain: Decoding Bill Gates",
+    "Description": "This three-part docuseries takes you into the life of one of the wealthiest people in the world and Microsoft co-founder – Bill Gates. From his childhood and education to his Microsoft stewardship and his charitable foundation, you’ll learn about what formed him, what kept him going while juggling multiple complex projects, and what motivated him to succeed.\n\nInterviews, biographical material, and candid footage showcase Gates’ intelligence, optimism, and determination. This is currently available on Netflix.",
+    "ReleaseDate": "2019-02-22",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/ibb.jpg"
+  },
+  {
+    "Title": "Minimalism: A Documentary about the Important Things",
+    "Description": "Released in 2016, “Minimalism” is mostly geared toward consumers. The whole point of the film is that you can live a happy and fulfilling life with very few material items. \n\nThis same lesson applies to the business world as well. \n\nRemember that profit isn’t simply about increasing sales — it’s also about reducing expenses. As an entrepreneur, resist the temptation to buy glossy business cards or spacious offices. ",
+    "ReleaseDate": "2020-05-06",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/minimalism.jpg"
+  },
+  {
+    "Title": "Tony Robbins: I Am Not Your Guru",
+    "Description": "Tony Robbins is a renowned life coach and business strategist. He leaves everything he has on the field.\n\nThis powerful documentary takes a deep dive into all of the behind-the-scenes preparation that goes into his extremely well-attended workshops. It also serves as the perfect counterbalance to another Netflix favorite — “FYRE: The Greatest Party That Never Happened” (2019).\n\nIf you feel stressed about your workload — especially when it comes to conference planning — this documentary will inspire you. This is currently available on Netflix.",
+    "ReleaseDate": "2020-03-30",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/ianyg.jpg"
+  },
+  {
+    "Title": "Capital C ",
+    "Description": "Not all of Netflix’s titles are cautionary tales — 2015’s “Capital C” is an inspiring documentary about how entrepreneurs are increasingly decoupling themselves from traditional sources of financing. Banks and angel investors are no longer the sole gatekeepers, thanks to emerging alternatives like crowdfunding. \n\nThe secret to raising large sums of capital lies in creating a message that resonates with others. If you do this, people will naturally want to help and support your growth. This is currently available on Amazon Prime.",
+    "ReleaseDate": "2020-05-14",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/cc.jpg"
+  },
+  {
+    "Title": "Jiro Dreams of Sushi",
+    "Description": "This 2012 documentary follows the approaching retirement of famed sushi chef, Jiro Ono, as he prepares his son to take over the business. \n\nThere is a lot to unpack in this film, but one key takeaway is that charging higher prices doesn’t necessarily require adding more bells and whistles. Ono’s strategy involves an unwavering commitment to quality and perfection. \n\nThis approach is much harder to scale. Yet, when you’re charging $300 a plate, you can afford to maintain a relatively small operation — and still be a huge success. This is currently available on Netflix.",
+    "ReleaseDate": "2019-04-26",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/jdos.jpg"
+  },
+  {
+    "Title": "Something Ventured",
+    "Description": "Nearly every entrepreneur dreams of attracting investors to help get their ventures off the ground. The thinking goes that with enough outside financing, everything falls magically into place — at least in theory.\n\nWhile your chances of success definitely improve with venture capital, this exposé into the early days of Silicon Valley clearly demonstrates that the road to success is neither easy nor automatic. Many of the hard lessons learned in this insightful documentary can help you avoid some of the common pitfalls entrepreneurs face when courting investors.\n\nFor a more entertaining look into the machinations of IT and venture capital, you might also be interested in the comedy series “Silicon Valley.” It’s a fun ride full of absurd twists and turns. This is currently available on Amazon Prime.",
+    "ReleaseDate": "2020-05-15",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/svent.jpg"
+  },
+  {
+    "Title": "Freakonomics",
+    "Description": "This movie stitches together a series of vignettes that walk you through the fields of human behavior and psychology. Because business is essentially the art of “negotiation” — this isn’t a documentary any entrepreneur can afford to miss. Whether your goal is to charge higher prices, compete more aggressively, or incentivize lackluster employees, “Freakonomics” is full of actionable insights you can put to work right away. This is currently available on Netflix.",
+    "ReleaseDate": "2019-08-13",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/f.jpg"
+  },
+  {
+    "Title": "The Profit",
+    "Description": "What if you don’t have a new and Shark-worthy business idea poised for growth? What if you have an existing business, but you’re struggling to break even? CNBC’s The Profit is a great place to learn what you can do to improve. In each episode, host Marcus Lemonis offers struggling small businesses capital investment and his expertise in exchange for an ownership share in their company.\n\nWhile watching this show won’t give you a quick boost in capital, you may recognize some of the issues that business owners are dealing with as familiar to your own business. Maybe some of Marcus’ advice will offer you a Profit-able solution.",
+    "ReleaseDate": "2019-03-25",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/tp.jpg"
+  },
+  {
+    "Title": "Orange Is the New Black",
+    "Description": "If you don’t instantly know why the Netflix series Orange Is the New Black is an entrepreneur’s must-see, clearly you’ve never met Red. Played by Kate Mulgrew, Galina “Red” Reznikov may be one of the most innovative entrepreneurs the world has ever seen. This woman is a wealth of wisdom on everything from effective team leadership to supply chain management. Because if you can make a profit in prison, you really can make it anywhere.",
+    "ReleaseDate": "2019-09-16",
+    "Category": "show",
+    "PhotoUrl": "https://localhost:5001/images/oitnb.jpg"
+  }
+]
