@@ -15,6 +15,9 @@ namespace ScreenplayApp.Application.Mapper
     {
         public ScreenplayAppMappingProfile()
         {
+            CreateMap<MostSoldMoviesWithoutRatingReport, MostSoldMoviesWithoutRatingResponse>().ReverseMap();
+            CreateMap<MostViewedMoviesForAPeriodReport, MostViewedMoviesForAPeriodResponse>().ReverseMap();
+            CreateMap<MostRatedMoviesReport, MostRatedMoviesResponse>().ReverseMap();
             CreateMap<Booking, CreateBookingCommand>().ReverseMap();
             CreateMap<Booking, BookingResponse>().ReverseMap();
             CreateMap<Screenplay, ScreenplayResponse>()

@@ -35,6 +35,7 @@ namespace ScreenplayApp.API.Extensions
             services.AddTransient<IRatingRepository, RatingRepository>();
             services.AddTransient<IBookingRepository, BookingRepository>();
             services.AddTransient<ITicketRepository, TicketRepository>();
+            services.AddTransient<IReportRepository, ReportRepository>();
 
             // Services
             services.AddScoped<ITokenService, TokenService>();

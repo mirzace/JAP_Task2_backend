@@ -10,8 +10,8 @@ using ScreenplayApp.Infrastructure.Data;
 namespace ScreenplayApp.Infrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210913214500_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210915092945_AddedStoredProcedures")]
+    partial class AddedStoredProcedures
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -274,6 +274,54 @@ namespace ScreenplayApp.Infrastructure.Migrations
                     b.ToTable("Bookings");
                 });
 
+            modelBuilder.Entity("ScreenplayApp.Core.Entities.MostRatedMoviesReport", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("number_of_ratings")
+                        .HasColumnType("int");
+
+                    b.ToTable("MostRatedMoviesReports");
+                });
+
+            modelBuilder.Entity("ScreenplayApp.Core.Entities.MostSoldMoviesWithoutRatingReport", b =>
+                {
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Location")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("tickets_sold")
+                        .HasColumnType("int");
+
+                    b.ToTable("MostSoldMoviesWithoutRatingReport");
+                });
+
+            modelBuilder.Entity("ScreenplayApp.Core.Entities.MostViewedMoviesForAPeriodReport", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Title")
+                        .HasColumnType("int");
+
+                    b.Property<int>("screening_number")
+                        .HasColumnType("int");
+
+                    b.ToTable("MostViewedMoviesForAPeriodReport");
+                });
+
             modelBuilder.Entity("ScreenplayApp.Core.Entities.Rating", b =>
                 {
                     b.Property<int>("Id")
@@ -442,13 +490,15 @@ namespace ScreenplayApp.Infrastructure.Migrations
 
             modelBuilder.Entity("ScreenplayApp.Core.Entities.Ticket", b =>
                 {
-                    b.HasOne("ScreenplayApp.Core.Entities.Booking", null)
+                    b.HasOne("ScreenplayApp.Core.Entities.Booking", "Booking")
                         .WithMany("Tickets")
                         .HasForeignKey("BookingId");
 
                     b.HasOne("ScreenplayApp.Core.Entities.Screenplay", "Screenplay")
                         .WithMany("Tickets")
                         .HasForeignKey("ScreenplayId");
+
+                    b.Navigation("Booking");
 
                     b.Navigation("Screenplay");
                 });
