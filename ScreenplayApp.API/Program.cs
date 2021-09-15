@@ -29,9 +29,8 @@ namespace ScreenplayApp.API
                 var userManager = services.GetRequiredService<UserManager<AppUser>>();
                 var roleManager = services.GetRequiredService<RoleManager<AppRole>>();
                 await context.Database.MigrateAsync();
-                await Seed.SeedScreenplays(context);
                 await Seed.SeedActors(context);
-                await Seed.SeedRatings(context);
+                await Seed.SeedScreenplays(context);
                 await Seed.SeedUsers(userManager, roleManager);
             }
             catch (Exception ex)

@@ -32,11 +32,9 @@ namespace ScreenplayApp.Application.Handlers.CommandHandlers
         {
             // Get available tickets
             var ticketQuery = await _ticketRepo.GetAllTicketsQueryAsync();
-            List<Ticket> tickets = await ticketQuery.Include(t => t.Screenplay).Where( x=>
-                //x => x.Date == request.Date
-                //&& x.Date > DateTime.Now
-                //&& 
-                x.Location == request.Location && x.IsAvailable == true && x.Screenplay.Id == request.ScreenplayId).Take(request.NumberOfTickets).ToListAsync();
+            List<Ticket> tickets = await ticketQuery.Include(t => t.Screenplay).Where( x=> x.Date == request.Date
+                && x.Date > DateTime.Now && x.Location == request.Location
+                && x.IsAvailable == true && x.Screenplay.Id == request.ScreenplayId).Take(request.NumberOfTickets).ToListAsync();
 
             if(tickets.Count() < request.NumberOfTickets) throw new ApplicationException("Not enough tickets");
 
