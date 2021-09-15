@@ -14,7 +14,7 @@ namespace ScreenplayApp.Infrastructure.Data.Seed
     {
         public static async Task SeedScreenplays(DataContext context)
         {
-            if (await context.Screenplays.AnyAsync()) return;
+            if (await context.Screenplays.AnyAsync() || await context.Tickets.AnyAsync()) return;
 
             var screenplayData = await System.IO.File.ReadAllTextAsync("../ScreenplayApp.Infrastructure/Data/Seed/ScreenplaySeedData.json");
             var screenplays = JsonSerializer.Deserialize<List<Screenplay>>(screenplayData);
@@ -24,6 +24,40 @@ namespace ScreenplayApp.Infrastructure.Data.Seed
                 context.Screenplays.Add(screenplay);
             }
 
+            await context.SaveChangesAsync();
+
+            // Tickets and Ratings
+
+            string[] locations = { "Location A", "Location B", "Location C", "Location D", "Location E"};
+            Random rand = new Random();
+
+            foreach (Screenplay screenplay in screenplays)
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    int index = rand.Next(locations.Length);
+                    // Add 4 tickets for each movie
+                    if (screenplay.Category == "movie")
+                    {
+                        Ticket ticket = new Ticket
+                        {
+                            IsAvailable = true,
+                            Screenplay = screenplay,
+                            Location = locations[index],
+                            Date = DateTime.Now.AddDays(index+1),
+                        };
+                        context.Tickets.Add(ticket);
+                    }
+
+                    // Add rating for earch screenplay
+                    Rating rating = new Rating
+                    {
+                        Rate = index+1,
+                        Screenplay = screenplay
+                    };
+                    context.Ratings.Add(rating);
+                }
+            }
             await context.SaveChangesAsync();
         }
 
@@ -37,24 +71,6 @@ namespace ScreenplayApp.Infrastructure.Data.Seed
             foreach (var actor in actors)
             {
                 context.Actors.Add(actor);
-            }
-
-            await context.SaveChangesAsync();
-        }
-
-        public static async Task SeedRatings(DataContext context)
-        {
-            if (await context.Ratings.AnyAsync()) return;
-
-            var ratingData = await System.IO.File.ReadAllTextAsync("../ScreenplayApp.Infrastructure/Data/Seed/RatingSeedData.json");
-            var ratings = JsonSerializer.Deserialize<List<Rating>>(ratingData);
-
-            foreach (var rating in ratings)
-            {
-                context.Ratings.Add(new Rating { 
-                    Screenplay = rating.Screenplay,
-                    Rate = rating.Rate
-                });
             }
 
             await context.SaveChangesAsync();
