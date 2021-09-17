@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenplayApp.Infrastructure", "ScreenplayApp.Infrastructure\ScreenplayApp.Infrastructure.csproj", "{2AD5D9B8-8B66-4317-8D15-67019D6EF6FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenplayApp.Infrastructure", "ScreenplayApp.Infrastructure\ScreenplayApp.Infrastructure.csproj", "{2AD5D9B8-8B66-4317-8D15-67019D6EF6FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenplayApp.Core", "ScreenplayApp.Core\ScreenplayApp.Core.csproj", "{2793B596-744F-45B1-9B1A-965C181891ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenplayApp.Core", "ScreenplayApp.Core\ScreenplayApp.Core.csproj", "{2793B596-744F-45B1-9B1A-965C181891ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenplayApp.Application", "ScreenplayApp.Application\ScreenplayApp.Application.csproj", "{1A1CD563-540C-4DC2-9957-D7611EB5EDE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenplayApp.Application", "ScreenplayApp.Application\ScreenplayApp.Application.csproj", "{1A1CD563-540C-4DC2-9957-D7611EB5EDE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenplayApp.API", "ScreenplayApp.API\ScreenplayApp.API.csproj", "{5C8E6916-C567-47FC-8DC9-182A49172EEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenplayApp.API", "ScreenplayApp.API\ScreenplayApp.API.csproj", "{5C8E6916-C567-47FC-8DC9-182A49172EEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4EEC5291-903D-4C41-B204-D7A59CE2E5A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9E80F04C-6302-4BAD-AF58-34439D231B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenplayApp.Test", "ScreenplayApp.Test\ScreenplayApp.Test.csproj", "{ACB5DAC6-F891-43B8-800E-EDE08D1B162D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{5C8E6916-C567-47FC-8DC9-182A49172EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C8E6916-C567-47FC-8DC9-182A49172EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C8E6916-C567-47FC-8DC9-182A49172EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB5DAC6-F891-43B8-800E-EDE08D1B162D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB5DAC6-F891-43B8-800E-EDE08D1B162D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB5DAC6-F891-43B8-800E-EDE08D1B162D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB5DAC6-F891-43B8-800E-EDE08D1B162D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{2793B596-744F-45B1-9B1A-965C181891ED} = {4EEC5291-903D-4C41-B204-D7A59CE2E5A3}
 		{1A1CD563-540C-4DC2-9957-D7611EB5EDE7} = {4EEC5291-903D-4C41-B204-D7A59CE2E5A3}
 		{5C8E6916-C567-47FC-8DC9-182A49172EEE} = {4EEC5291-903D-4C41-B204-D7A59CE2E5A3}
+		{ACB5DAC6-F891-43B8-800E-EDE08D1B162D} = {9E80F04C-6302-4BAD-AF58-34439D231B26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF74E87F-E4AE-4A6B-9952-89D233C6738F}

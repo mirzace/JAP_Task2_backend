@@ -13,5 +13,9 @@ namespace ScreenplayApp.Application.Queries
     {
         public string Category { get; set; } = "Movie";
         public string Search { get; set; }
+        public int OlderThanYears { get; set; }
+        public int NewerThanYear { get; set; }
+        public int AtLeastStars { get; set; }
+        public int ExactStars { get; set; }
     }
 }

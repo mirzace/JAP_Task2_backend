@@ -30,6 +30,8 @@ namespace ScreenplayApp.Application.Handlers.CommandHandlers
 
         public async Task<BookingResponse> Handle(CreateBookingCommand request, CancellationToken cancellationToken)
         {
+            if (request.Date <= DateTime.Now) throw new ApplicationException("Can not book this ticket");
+
             // Get available tickets
             var ticketQuery = await _ticketRepo.GetAllTicketsQueryAsync();
             List<Ticket> tickets = await ticketQuery.Include(t => t.Screenplay).Where( x=> x.Date == request.Date

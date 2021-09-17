@@ -28,8 +28,8 @@ namespace ScreenplayApp.Infrastructure.Repositories
         {
             return await _context.Screenplays
                 .Include(x => x.Ratings)
-                .Include(x => x.Actors)
-                .SingleOrDefaultAsync(x => x.Id == id);
+                //.Include(x => x.Actors)
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<IQueryable<Screenplay>> GetAllScreenplaysQueryAsync()

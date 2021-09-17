@@ -24,6 +24,10 @@ namespace ScreenplayApp.Application.Handlers.CommandHandlers
         }
         public async Task<int> Handle(CreateRatingCommand request, CancellationToken cancellationToken)
         {
+            if(request.Rate < 1 || request.Rate > 5)
+            {
+                throw new ApplicationException("Rate must be between 1 and 5");
+            }
             var screenplayEntity = await _screenplayRepo.GetByIdAsync(request.ScreenplayId);
             if (screenplayEntity is null)
             {
